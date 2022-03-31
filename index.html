@@ -1535,7 +1535,7 @@
                             
                             <img
                                 class="object-cover grayscale"
-                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/5aefccc9-ad64-4357-bf87-d67c53dffe79.jpeg" alt="We install beautiful and durable river rock landscapes that will last for years with little maintenance. We can replace mulching with river rock to help last for years with minimal maintenance.  for A&amp;M Landscaping and Tree Service in Vero Beach, FL" loading="lazy"
+                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/bde924dd-c994-4a5c-b0f3-a47957ea13e3.jpeg" alt="We install beautiful and durable river rock landscapes that will last for years with little maintenance. We can replace mulching with river rock to help last for years with minimal maintenance.  for A&amp;M Landscaping and Tree Service in Vero Beach, FL" loading="lazy"
                                 alt=""
                             />
                             
@@ -1709,7 +1709,7 @@
                             
                             <img
                                 class="object-cover grayscale"
-                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/0ba7e30d-a46b-4cd2-a2c1-56d477cc5e4a.png" alt="At our landscaping company, we understand the importance of a beautiful and functional yard. That&#x27;s why we offer sod layouts - a service that helps you choose the right sod for your needs and installs it in a way that will make your yard look great. for A&amp;M Landscaping and Tree Service in Vero Beach, FL" loading="lazy"
+                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/719e9b58-45b8-4a13-a732-b317e50e394e.jpeg" alt="At our landscaping company, we understand the importance of a beautiful and functional yard. That&#x27;s why we offer sod layouts - a service that helps you choose the right sod for your needs and installs it in a way that will make your yard look great. for A&amp;M Landscaping and Tree Service in Vero Beach, FL" loading="lazy"
                                 alt=""
                             />
                             
@@ -1993,7 +1993,7 @@
 <div
     x-data="{
         activeImage: 0,
-        amountOfImages: 32,
+        amountOfImages: 35,
         next() {
             if (this.activeImage < this.amountOfImages - 1)
                 this.activeImage ++;
@@ -2681,6 +2681,69 @@
                 </div>
             </li>
         
+            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" hidden ">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 32; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/bde924dd-c994-4a5c-b0f3-a47957ea13e3.jpeg" alt="" /> -->
+                             
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/bde924dd-c994-4a5c-b0f3-a47957ea13e3.jpeg" alt="Landscape Design and Installation for A&amp;M Landscaping and Tree Service in Vero Beach, FL" loading="lazy"/> 
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/bde924dd-c994-4a5c-b0f3-a47957ea13e3.jpeg" alt="" /> -->
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/bde924dd-c994-4a5c-b0f3-a47957ea13e3.jpeg" alt="" /> -->
+                            
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" hidden ">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 33; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/719e9b58-45b8-4a13-a732-b317e50e394e.jpeg" alt="" /> -->
+                             
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/719e9b58-45b8-4a13-a732-b317e50e394e.jpeg" alt="Landscape Design and Installation for A&amp;M Landscaping and Tree Service in Vero Beach, FL" loading="lazy"/> 
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/719e9b58-45b8-4a13-a732-b317e50e394e.jpeg" alt="" /> -->
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/719e9b58-45b8-4a13-a732-b317e50e394e.jpeg" alt="" /> -->
+                            
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" hidden ">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 34; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/19bb3e49-0b7d-42bc-abb1-e04eb71d23ae.jpeg" alt="" /> -->
+                             
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/19bb3e49-0b7d-42bc-abb1-e04eb71d23ae.jpeg" alt="Landscape Design and Installation for A&amp;M Landscaping and Tree Service in Vero Beach, FL" loading="lazy"/> 
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/19bb3e49-0b7d-42bc-abb1-e04eb71d23ae.jpeg" alt="" /> -->
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/19bb3e49-0b7d-42bc-abb1-e04eb71d23ae.jpeg" alt="" /> -->
+                            
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
     </ul>
 
     <!-- Gallery Modal -->
@@ -2985,6 +3048,30 @@
                                         
                                     </li>
                                 
+                                    <!-- Transition Wrapper 1 -->
+                                    <li class="flex flex-col" x-show="activeImage === 32">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/bde924dd-c994-4a5c-b0f3-a47957ea13e3.jpeg" alt="Landscape Design and Installation for A&amp;M Landscaping and Tree Service in Vero Beach, FL" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <!-- Transition Wrapper 1 -->
+                                    <li class="flex flex-col" x-show="activeImage === 33">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/719e9b58-45b8-4a13-a732-b317e50e394e.jpeg" alt="Landscape Design and Installation for A&amp;M Landscaping and Tree Service in Vero Beach, FL" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <!-- Transition Wrapper 1 -->
+                                    <li class="flex flex-col" x-show="activeImage === 34">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/19bb3e49-0b7d-42bc-abb1-e04eb71d23ae.jpeg" alt="Landscape Design and Installation for A&amp;M Landscaping and Tree Service in Vero Beach, FL" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
                             </ul>
 
                             <button :class="activeImage < amountOfImages - 1 ? 'opacity-100' : 'opacity-0'" @click="next" class="text-6xl transition-opacity focus:outline-none focus-visible:ring-2 ring-primary ring-offset-2 ring-opacity-75">
@@ -3113,6 +3200,90 @@
                                         />
                                     </svg>
                                     <p lorem="1" class="relative text-lg font-medium">
+                                        They did great work and quickly. We needed pea gravel moved from driveway and a French drain installed along o e side of the house. We are very pleased with their work!
+
+                                    </p>
+                                </div>
+                                <footer class="flex items-center justify-between mt-8 space-x-4">
+                                    <div>
+                                        <span class="block font-medium text-primary">Kim-Cherie H.</span>
+                                        <span class="block font-medium">Vero Beach, FL</span>
+                                    </div>
+
+                                    <!-- Social Icon -->
+                                    <div class="flex-shrink-0">
+                                        <span class="sr-only">None</span>
+                                        
+                                    
+                                    </div>
+                                </footer>
+                            </blockquote>
+                        </li>
+                    
+                    
+                    
+
+                        <!-- Review Item -->
+                        <li class=" hidden sm:block  px-6 py-8 rounded-lg shadow md:px-8 xl:pl-16 xl:pr-6 bg-gray-50">
+                            <!-- Star Rating -->
+                            <div class="flex">
+                                <div aria-hidden="true" class="space-x-1.5 flex">
+                                    <!-- TODO: Simply use a for loop here `for i = 1; i < amountOfStars; i++` -->
+                                    
+                                        <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                            <path
+                                                d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
+                                    
+                                        <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                            <path
+                                                d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
+                                    
+                                        <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                            <path
+                                                d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
+                                    
+                                        <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                            <path
+                                                d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
+                                    
+                                        <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                            <path
+                                                d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
+                                    
+                                </div>
+                                <!-- TODO: Add the current amount of stars here -->
+                                <span class="sr-only"> out of 5 stars</span>
+                            </div>
+
+                            <blockquote class="mt-6">
+                                <div class="relative">
+                                    <svg
+                                        aria-hidden="true"
+                                        class="absolute top-0 left-0 w-8 h-8 text-gray-200 -translate-x-3 -translate-y-2"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4Zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4Z"
+                                            fill="currentColor"
+                                        />
+                                    </svg>
+                                    <p lorem="1" class="relative text-lg font-medium">
                                         Matt and his team came to my house and did an amazing job on trimming my hedge it was done quickly and just the way I wanted it . I would recommend them to my friends
 
                                     </p>
@@ -3134,10 +3305,17 @@
                         </li>
                     
                     
+                </ul>
+            
+                <!-- Single Testimonial Column -->
+                <ul class="space-y-8">
+                    <!-- Loop each of the items (rows) here -->
+                    
+                    
                     
 
                         <!-- Review Item -->
-                        <li class=" hidden sm:block  px-6 py-8 rounded-lg shadow md:px-8 xl:pl-16 xl:pr-6 bg-gray-50">
+                        <li class=" block  px-6 py-8 rounded-lg shadow md:px-8 xl:pl-16 xl:pr-6 bg-gray-50">
                             <!-- Star Rating -->
                             <div class="flex">
                                 <div aria-hidden="true" class="space-x-1.5 flex">
@@ -3288,97 +3466,6 @@
                                         />
                                     </svg>
                                     <p lorem="1" class="relative text-lg font-medium">
-                                        They did great work and quickly. We needed pea gravel moved from driveway and a French drain installed along o e side of the house. We are very pleased with their work!
-
-                                    </p>
-                                </div>
-                                <footer class="flex items-center justify-between mt-8 space-x-4">
-                                    <div>
-                                        <span class="block font-medium text-primary">Kim-Cherie H.</span>
-                                        <span class="block font-medium">Vero Beach, FL</span>
-                                    </div>
-
-                                    <!-- Social Icon -->
-                                    <div class="flex-shrink-0">
-                                        <span class="sr-only">None</span>
-                                        
-                                    
-                                    </div>
-                                </footer>
-                            </blockquote>
-                        </li>
-                    
-                    
-                </ul>
-            
-                <!-- Single Testimonial Column -->
-                <ul class="space-y-8">
-                    <!-- Loop each of the items (rows) here -->
-                    
-                    
-                    
-
-                        <!-- Review Item -->
-                        <li class=" block  px-6 py-8 rounded-lg shadow md:px-8 xl:pl-16 xl:pr-6 bg-gray-50">
-                            <!-- Star Rating -->
-                            <div class="flex">
-                                <div aria-hidden="true" class="space-x-1.5 flex">
-                                    <!-- TODO: Simply use a for loop here `for i = 1; i < amountOfStars; i++` -->
-                                    
-                                        <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                            <path
-                                                d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
-                                    
-                                        <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                            <path
-                                                d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
-                                    
-                                        <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                            <path
-                                                d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
-                                    
-                                        <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                            <path
-                                                d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
-                                    
-                                        <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                            <path
-                                                d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
-                                    
-                                </div>
-                                <!-- TODO: Add the current amount of stars here -->
-                                <span class="sr-only"> out of 5 stars</span>
-                            </div>
-
-                            <blockquote class="mt-6">
-                                <div class="relative">
-                                    <svg
-                                        aria-hidden="true"
-                                        class="absolute top-0 left-0 w-8 h-8 text-gray-200 -translate-x-3 -translate-y-2"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4Zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4Z"
-                                            fill="currentColor"
-                                        />
-                                    </svg>
-                                    <p lorem="1" class="relative text-lg font-medium">
                                         We were very pleased with A &amp; M Landscaping. They knew just what we wanted for curb appeal and delivered everything on time. Their choice of plants &amp; shrubs for our house was perfect. The brothers are friendly and very knowledgeable. I’ll definitely be using them again!
 
                                     </p>
@@ -3432,7 +3519,7 @@
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-white rounded  focus:outline-none focus-visible:ring-2 ring-white"
-                                aria-controls="48355"
+                                aria-controls="48938"
                                 :aria-expanded="expanded"
                             >
                             <span class="font-medium text-white">What&#x27;s the best way to reach you?</span>
@@ -3452,7 +3539,7 @@
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="48355">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="48938">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-100">Give us a call or send us a text at +1 772-205-4970. Thanks!</p>
                         </dd>
@@ -3465,7 +3552,7 @@
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-white rounded  focus:outline-none focus-visible:ring-2 ring-white"
-                                aria-controls="48356"
+                                aria-controls="48939"
                                 :aria-expanded="expanded"
                             >
                             <span class="font-medium text-white">Do you provide free estimates?</span>
@@ -3485,7 +3572,7 @@
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="48356">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="48939">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-100">Yes, we&#x27;ll always estimate the job for free. Just give us a call to get started.</p>
                         </dd>
@@ -3498,7 +3585,7 @@
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-white rounded  focus:outline-none focus-visible:ring-2 ring-white"
-                                aria-controls="48357"
+                                aria-controls="48940"
                                 :aria-expanded="expanded"
                             >
                             <span class="font-medium text-white">How are you different?</span>
@@ -3518,7 +3605,7 @@
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="48357">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="48940">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-100">We&#x27;re a customer-first company that will do whatever it takes to make sure the job is well done.</p>
                         </dd>
@@ -4123,68 +4210,68 @@
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167681"
-                                                    name="167681"
+                                                    id="contact-service-168901"
+                                                    name="168901"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Landscape Design and Installation"
                                             />
-                                            <label for="contact-label-service-167681" class="ml-3 text-sm font-medium text-gray-700">Landscape Design and Installation</label>
+                                            <label for="contact-label-service-168901" class="ml-3 text-sm font-medium text-gray-700">Landscape Design and Installation</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167682"
-                                                    name="167682"
+                                                    id="contact-service-168902"
+                                                    name="168902"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="River Rock Installation"
                                             />
-                                            <label for="contact-label-service-167682" class="ml-3 text-sm font-medium text-gray-700">River Rock Installation</label>
+                                            <label for="contact-label-service-168902" class="ml-3 text-sm font-medium text-gray-700">River Rock Installation</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167683"
-                                                    name="167683"
+                                                    id="contact-service-168903"
+                                                    name="168903"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Shrub Trimming"
                                             />
-                                            <label for="contact-label-service-167683" class="ml-3 text-sm font-medium text-gray-700">Shrub Trimming</label>
+                                            <label for="contact-label-service-168903" class="ml-3 text-sm font-medium text-gray-700">Shrub Trimming</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167684"
-                                                    name="167684"
+                                                    id="contact-service-168904"
+                                                    name="168904"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Palm Tree Removal and Trimming"
                                             />
-                                            <label for="contact-label-service-167684" class="ml-3 text-sm font-medium text-gray-700">Palm Tree Removal and Trimming</label>
+                                            <label for="contact-label-service-168904" class="ml-3 text-sm font-medium text-gray-700">Palm Tree Removal and Trimming</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167685"
-                                                    name="167685"
+                                                    id="contact-service-168905"
+                                                    name="168905"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Sod Layouts"
                                             />
-                                            <label for="contact-label-service-167685" class="ml-3 text-sm font-medium text-gray-700">Sod Layouts</label>
+                                            <label for="contact-label-service-168905" class="ml-3 text-sm font-medium text-gray-700">Sod Layouts</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167686"
-                                                    name="167686"
+                                                    id="contact-service-168906"
+                                                    name="168906"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Other Landscaping Services"
                                             />
-                                            <label for="contact-label-service-167686" class="ml-3 text-sm font-medium text-gray-700">Other Landscaping Services</label>
+                                            <label for="contact-label-service-168906" class="ml-3 text-sm font-medium text-gray-700">Other Landscaping Services</label>
                                         </div>
                                         
                                     </div>
@@ -4216,68 +4303,68 @@
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167681"
-                                                    name="167681"
+                                                    id="contact-service-168901"
+                                                    name="168901"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Landscape Design and Installation"
                                             />
-                                            <label for="contact-label-service-167681" class="ml-3 text-sm font-medium text-gray-700">Landscape Design and Installation</label>
+                                            <label for="contact-label-service-168901" class="ml-3 text-sm font-medium text-gray-700">Landscape Design and Installation</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167682"
-                                                    name="167682"
+                                                    id="contact-service-168902"
+                                                    name="168902"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="River Rock Installation"
                                             />
-                                            <label for="contact-label-service-167682" class="ml-3 text-sm font-medium text-gray-700">River Rock Installation</label>
+                                            <label for="contact-label-service-168902" class="ml-3 text-sm font-medium text-gray-700">River Rock Installation</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167683"
-                                                    name="167683"
+                                                    id="contact-service-168903"
+                                                    name="168903"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Shrub Trimming"
                                             />
-                                            <label for="contact-label-service-167683" class="ml-3 text-sm font-medium text-gray-700">Shrub Trimming</label>
+                                            <label for="contact-label-service-168903" class="ml-3 text-sm font-medium text-gray-700">Shrub Trimming</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167684"
-                                                    name="167684"
+                                                    id="contact-service-168904"
+                                                    name="168904"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Palm Tree Removal and Trimming"
                                             />
-                                            <label for="contact-label-service-167684" class="ml-3 text-sm font-medium text-gray-700">Palm Tree Removal and Trimming</label>
+                                            <label for="contact-label-service-168904" class="ml-3 text-sm font-medium text-gray-700">Palm Tree Removal and Trimming</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167685"
-                                                    name="167685"
+                                                    id="contact-service-168905"
+                                                    name="168905"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Sod Layouts"
                                             />
-                                            <label for="contact-label-service-167685" class="ml-3 text-sm font-medium text-gray-700">Sod Layouts</label>
+                                            <label for="contact-label-service-168905" class="ml-3 text-sm font-medium text-gray-700">Sod Layouts</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167686"
-                                                    name="167686"
+                                                    id="contact-service-168906"
+                                                    name="168906"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Other Landscaping Services"
                                             />
-                                            <label for="contact-label-service-167686" class="ml-3 text-sm font-medium text-gray-700">Other Landscaping Services</label>
+                                            <label for="contact-label-service-168906" class="ml-3 text-sm font-medium text-gray-700">Other Landscaping Services</label>
                                         </div>
                                         
                                     </div>
